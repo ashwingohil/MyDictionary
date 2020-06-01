@@ -378,10 +378,10 @@ public class MyDictionary{
     public static void showDictionaryBanner(String currentusername){
         System.out.println("Welcome, "+currentusername);
         System.out.println("1. Write Word-Meaning");
-        System.out.println("2. Add");
-        System.out.println("3. Delete");
+        System.out.println("2. Search Word");
+        System.out.println("3. Add");
         System.out.println("4. Edit");
-        System.out.println("5. Search Word");
+        System.out.println("5. Delete");
         System.out.println("0. Log out");
     }
 
@@ -1026,21 +1026,15 @@ public class MyDictionary{
                                         objects.get(objectindex).pushDerivativesToUserDerivatives();
                                         objects.get(objectindex).pushNovelsToUserNovels();
                                     }
-
-                                    //objects.get(objectindex).displayCurrentWordData();
-                                    //objects.get(objectindex).readWordFromUserDictionaryChecking("chop");
-                                    //objects.get(objectindex).loadWordMeaningFromFile(objects.get(objectindex).setFile(currentusername,"evermore"));
-                                    //objects.get(objectindex).displayCurrentWordData();
-                                    //objects.get(objectindex).readFromUserNovelsChecking("zebra");
                                 }
 
                                 break;
-                            case "2": //temporary action here
-                                objects.get(objectindex).loadWordsInfoFromDirectory(currentusername);
+                            case "5":
+
 
                                 break;
 
-                            case "5":
+                            case "2":
                                 String wordToSearch;
                                 String searchingOption;
                                 String rootword;
