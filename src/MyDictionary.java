@@ -1006,7 +1006,7 @@ public class MyDictionary{
                 for(;;){
                     MyDictionary.showDictionaryBanner(currentusername);
                     inputstr=userinput.nextLine();
-                    if(inputstr.equals("0") || inputstr.equals("1") || inputstr.equals("2") || inputstr.equals("5")){
+                    if(inputstr.equals("0") || inputstr.equals("1") || inputstr.equals("2") || inputstr.equals("3") || inputstr.equals("4") || inputstr.equals("5")){
 
                         switch (inputstr) {
                             case "1":
@@ -1027,10 +1027,6 @@ public class MyDictionary{
                                         objects.get(objectindex).pushNovelsToUserNovels();
                                     }
                                 }
-
-                                break;
-                            case "5":
-
 
                                 break;
 
@@ -1092,6 +1088,15 @@ public class MyDictionary{
 
                                 }while(searchingOption.equals("y"));
 
+                                break;
+
+                            case "3":
+                                break;
+
+                            case "4":
+                                break;
+                                
+                            case "5":
                                 break;
 
                             case "0":
