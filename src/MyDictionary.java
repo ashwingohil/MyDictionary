@@ -869,31 +869,6 @@ public class MyDictionary{
         return false;
     }
 
-    private void readFromUserNovelsChecking(String word){
-        int arrayno;
-        arrayno = findArrayNumber(word.charAt(0));
-        for(int i = 0; i < usernovels[arrayno].size(); i++){
-            System.out.print(usernovels[arrayno].get(i).get(0));
-            System.out.print("  ");
-            for(int j=1; j<4; j++) {
-                System.out.print(usernovels[arrayno].get(i).get(j));
-                System.out.print("  ");
-            }
-            System.out.println();
-        }
-
-    }
-    private void readWordFromUserDictionaryChecking(String word){
-        int arrayno;
-        arrayno = findArrayNumber(word.charAt(0));
-        for(int i=0; i < userdictionary[arrayno].get(userdictionaryRowNo[arrayno]-1).size(); i++){
-                System.out.println(userdictionary[arrayno].get(userdictionaryRowNo[arrayno]-1).get(i));
-        }
-        System.out.println("Derivatives: ");
-        for(int i=0; i < userderivatives[arrayno].get(userderivativesRowNo[arrayno]-1).size(); i++){
-            System.out.println(userderivatives[arrayno].get(userderivativesRowNo[arrayno]-1).get(i));
-        }
-    }
 
     public static void main(String[] args){
 
