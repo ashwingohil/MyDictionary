@@ -1,5 +1,7 @@
 # MyDictionary - A command based tool
-Personal Dictionary to keep track of learned words along with the novel names where they occured. 
+**Purpose:** Personal Dictionary to keep track of learned words along with the novel names where they occured.
+
+**Genesis:** I felt the need that as a user I want to track the words I learnt from sources and able to do a lookup for that. I would also want to search a novel and know what were the words I learnt from it.
 
 
 Running the source: java MyDictionary.java
@@ -17,7 +19,7 @@ In-built user is "mojo". Password - "nopassword"
 3) **Ideation:** **The concept of each user designated as a Java object. Such objects stay afloat in the system even if user logs off.** Such objects store all files info into variables when constructor is run. **So search operation does not look for in the files once info is loaded if the user logs back in.** Use of Lists, hash authentication, file operations.
 
 >## Future Scope:
-Add info to a word, edit word info file , delete word . And Search novel names for words learnt.
+Add info to a word, edit word info file , delete word . And Search novel names for words learnt. Comprehensive search among novels, and words like search for a novel and get a list of all the words learnt in it
 
 
 >## Screenshots:
