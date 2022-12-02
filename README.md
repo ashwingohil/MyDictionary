@@ -1,4 +1,4 @@
-# MyDictionary
+# MyDictionary - A command based tool
 Personal Dictionary to keep track of learned words along with the novel names where they occured. 
 
 
@@ -12,8 +12,7 @@ In-built user is "mojo". Password - "nopassword"
   For now, features are **write word info** and **search for word**. **System fetches root word also if derivative is searched.**
   **Register, Login, Forgot Password works.**
   
-  The working model is using naked files to store password and authenticates using md5 hash for passwords. In future such passwords   
-  can be stored in database.
+  The working model is using naked files to store password and authenticates using md5 hash for passwords. In future such passwords can be stored in database.
 
 3) **Ideation:** **The concept of each user designated as a Java object. Such objects stay afloat in the system even if user logs off.** Such objects store all files info into variables when constructor is run. **So search operation does not look for in the files once info is loaded if the user logs back in.** Use of Lists, hash authentication, file operations.
 
